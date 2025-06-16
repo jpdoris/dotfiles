@@ -14,12 +14,12 @@ return {
     --   ['<leader>w'] = { name = '[W]orkspace', _ = 'which_key_ignore' },
     -- }
 
-    require('which-key').add {
+    --[[ require('which-key').add {
       { '<leader>c', desc = '[C]ode', hidden = true },
       { '<leader>d', desc = '[D]ocument', hidden = true },
       { '<leader>r', desc = '[R]ename', hidden = true },
       { '<leader>s', desc = '[S]earch', hidden = true },
       { '<leader>w', desc = '[W]orkspace', hidden = true },
-    }
+    } ]]
   end,
 }
