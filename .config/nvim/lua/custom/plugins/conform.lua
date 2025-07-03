@@ -21,11 +21,11 @@ return {
       typescriptreact = { 'prettier' },
       javascriptvue = { 'prettier' },
       vue = { 'prettier' },
-      css = { 'prettier' },
+      css = { 'stylelint-prettier' },
       html = { 'prettier' },
       json = { 'prettier' },
       yaml = { 'prettier' },
-      markdown = { 'prettier' },
+      markdown = { 'markdownlint' },
       -- Conform can also run multiple formatters sequentially
       python = { 'isort', 'black' },
       --

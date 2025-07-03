@@ -17,6 +17,12 @@ return {
   },
   config = function()
     require('neo-tree').setup {
+      window = {
+        mappings = {
+          ['<s-Tab>'] = 'prev_source',
+          ['<Tab>'] = 'next_source',
+        },
+      },
       source_selector = {
         winbar = true,
         statusline = false,
