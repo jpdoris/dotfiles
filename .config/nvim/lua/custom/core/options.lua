@@ -83,7 +83,7 @@ vim.opt.cursorline = true
 vim.opt.scrolloff = 15
 
 -- include hyphens in words
-vim.opt.iskeyword:append '-'
+-- vim.opt.iskeyword:append '-'
 
 -- set word wrap to false by default
 vim.opt.wrap = false

@@ -39,7 +39,9 @@ alias rg='~/ripgrep-14.1.0-x86_64-unknown-linux-musl/rg'
 alias vimcfg='cd ~/.config/nvim'
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ## Colorize the ls output ##
-alias ls='ls --color=auto'
+#alias ls='ls --color=auto'
+alias ls='eza'
+alias cd='z'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
