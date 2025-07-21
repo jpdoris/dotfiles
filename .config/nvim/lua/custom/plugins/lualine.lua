@@ -4,7 +4,7 @@ return {
   config = function()
     local custom_palenight = require 'lualine.themes.palenight'
     local colors = {
-      menu_grey = '#3E4452',
+      menu_grey = '#5C657A',
       blue = '#7AA2F7',
       green = '#9ECE6A',
       purple = '#9D7CD8',
@@ -32,6 +32,7 @@ return {
       a = { fg = colors.black, bg = colors.red, gui = 'bold' },
       b = { fg = colors.red, bg = colors.menu_grey },
     }
+    custom_palenight.inactive.c = { fg = colors.black, bg = colors.menu_grey }
 
     require('lualine').setup {
       options = {

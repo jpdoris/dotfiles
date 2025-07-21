@@ -1,14 +1,17 @@
 
 theme = tokyonight-storm
 
-font-family = "CaskaydiaCove Nerd Font" 
-font-size = 16
+font-family = "Agave Nerd Font"
+font-size = 18
+font-thicken = true
+font-thicken-strength = 56
+alpha-blending = linear-corrected
 
 mouse-hide-while-typing = true
 
 background-opacity = 0.9
 
 window-colorspace = display-p3
-window-width = 214
-window-height = 72
+window-width = 237
+window-height = 77
 
