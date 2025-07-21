@@ -1,0 +1,14 @@
+
+theme = tokyonight-storm
+
+font-family = "CaskaydiaCove Nerd Font" 
+font-size = 16
+
+mouse-hide-while-typing = true
+
+background-opacity = 0.9
+
+window-colorspace = display-p3
+window-width = 214
+window-height = 72
+
